@@ -4,7 +4,7 @@ This is a simple example of fine-tuning Gemma-3 4B on a custom chat dataset. I n
 
 Aside from this toy use-case, the training code is a good starting point for fine-tuning any other LLM on a custom dataset.
 
-![cover](demos/cover.png)
+![cover](demos/tuned_r_gholamreza_ok.webp)
 
 ## Fine-tuning vs Prompt Engineering
 
