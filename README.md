@@ -1,6 +1,9 @@
-# Fine-tuning Gemma-3 4B on the letter-counting dataset
+# Fine-tuning Gemma3 4B on the Letter-counting Problem
 
-This is a simple example of fine-tuning Gemma-3 4B on a custom chat dataset. I noticed that smaller models like Gemma-3 4B are still not good at counting letters (Classic *how many "r" in "strawberry"* example that the early LLMs struggled with). So I decided to fine-tune Gemma-3 4B on the [letter-counting dataset](https://huggingface.co/datasets/Gholamreza/letter-counting-llm-finetune) that I created using a list of english words.
+This is a simple example of fine-tuning Gemma-3 4B on a custom chat dataset.
+
+I noticed that smaller models like Gemma3 4B are still not good at counting letters (The Classic *how many "r" in "strawberry"* example that the early LLMs struggled with).
+So I decided to fine-tune Gemma3 4B on the [letter-counting dataset](https://huggingface.co/datasets/Gholamreza/letter-counting-llm-finetune) that I created using a list of english words.
 
 Aside from this toy use-case, the training code is a good starting point for fine-tuning any other LLM on a custom dataset.
 
